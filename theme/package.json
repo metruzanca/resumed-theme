@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "dependencies": {
+    "@jsonresume/schema": "^1.2.1"
+  }
+}

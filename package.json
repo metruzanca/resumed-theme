@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "export": "resumed export --theme jsonresume-theme-local"
+  },
+  "dependencies": {
+    "jsonresume-theme-local": "file:./theme",
+    "puppeteer": "^24.40.0",
+    "resumed": "^6.1.0"
+  }
+}
