@@ -24,7 +24,7 @@
         "url": "https://twitter.com/metruzanca"
       },
       {
-        "network": "Linkedin",
+        "network": "LinkedIn",
         "username": "samuele-zanca",
         "url": "https://www.linkedin.com/in/samuele-zanca/"
       },
@@ -44,9 +44,10 @@
       "url": "https://predicate.io",
       "highlights": [
         "Engineered performant Go APIs, consistent latency <100ms response time across critical services for a high-growth startup serving thousands of end-users.",
-        "Reduced Docker image build time 180s -> 20s using buildkit and layer caching. Speeding up local dev and CI workflows.",
-        "Delivered intuitive and performant frontend experiences using React and Next.js, driving rapid feature delivery for scaling user base.",
-        "Led development of sleek frontend experiences and robust backend APIs, taking ownership of broad initiatives across the stack.",
+        "Reduced Docker image build time 180s -> 20s using buildkit and layer caching, speeding up local dev and CI workflows.",
+        "Delivered intuitive and performant frontend experiences using React and Next.js, driving rapid feature delivery.",
+        "Built responsive, accessible UI components with React and Tailwind, shipping iteratively based on user feedback.",
+        "Led full-stack development of sleek frontend experiences and robust Go backend APIs.",
         "Architected Redis-backed async job processing system using Go worker pools, handling 10K+ concurrent tasks with 99.9% reliability and sub-second processing times.",
         "Stay current with recent AI developments including LLMs, RAG, and AI agents, integrating them into development workflows."
       ]
@@ -60,13 +61,14 @@
       "location": "Remote",
       "highlights": [
         "Took over and improved our second largest Next.js app serving enterprise clients, enhancing maintainability and shipping velocity.",
-        "-50K lines of legacy code removed - Continuously reducing complexity while delivering new features and increasing reliable testing.",
-        "Guiding development for teams without dedicated frontend engineers, upleveling engineering practices and ensuring efficient feature delivery.",
-        "Company-wide design system – Contributing code and shaping direction to keep it simple, maintainable, and upleveling frontend standards across teams.",
+        "Removed 50K lines of legacy code while reducing complexity, delivering new features, and improving test reliability.",
+        "Provided frontend technical stewardship, guiding teams without dedicated frontend engineers and upleveling engineering practices for efficient feature delivery.",
+        "Contributed to the company-wide design system, shaping direction to keep it simple and maintainable while upleveling frontend standards across teams.",
         "Resolved high-priority client issues for large enterprise clients, improving user experience and eliminating major pain points.",
-        "Best practices – Implemented data fetching and rendering optimizations for high-performance frontend applications serving hundreds of thousands of users.",
+        "Optimized data fetching and rendering for a high-performance B2B frontend, ensuring reliability and a seamless experience for enterprise power users.",
         "Architected Java microservices with Kafka event streaming and PostgreSQL, processing 1M+ daily transactions for enterprise clients.",
-        "Optimized light Databricks analytics pipelines, reducing query latency by 40% for enterprise reporting."
+        "Managed Kubernetes deployments and cluster configurations for microservice infrastructure, ensuring reliable service delivery.",
+        "Built and maintained ETL pipelines in Databricks for enterprise reporting."
       ]
     },
     {
@@ -76,7 +78,6 @@
       "startDate": "2023-04",
       "endDate": "2023-12",
       "location": "New York City",
-      "logo": "https://raw.githubusercontent.com/metruzanca/metruzanca/master/icons/bentobox.png",
       "highlights": [
         "Built 50+ pixel-perfect, high-quality React components from designs, delivering experiences for 10,000+ restaurant users.",
         "Reduced tech debt by 30% by prioritizing maintainable code with a strong focus on simplicity, clarity, and UX.",
@@ -94,13 +95,27 @@
       "summary": "Brkfst.io creates performance-based video ads at scale, syndicated across social platforms",
       "highlights": [
         "Refactored legacy Node.js (TypeScript) modules into modular, well‑documented REST APIs, improving maintainability and simplifying future feature development.",
-        "Built a comprehensive browser automation testing suite with Playwright, reducing manual QA work and catching regressions earlier",
+        "Built a comprehensive browser automation testing suite with Playwright, reducing manual QA work and catching regressions earlier.",
         "Optimized PostgreSQL queries and introduced caching strategies to enhance job performance and API response times at scale.",
-        "Led migration from a legacy Webpack build system to modern tooling, taking ownership of the initiative to reduce technical debt and improve developer efficiency through automated performance monitoring.",
+        "Led migration from Webpack to modern frontend tooling, reducing build times by 60% and improving developer iteration speed.",
         "Designed and implemented AWS infrastructure using Terraform, establishing robust CI/CD pipelines that streamlined deployments for a high-growth startup building consumer-facing products from the ground up."
       ],
-      "url": "https://Brkfst.io",
-      "logo": "https://raw.githubusercontent.com/metruzanca/metruzanca/master/icons/brkfst.svg"
+      "url": "https://Brkfst.io"
+    },
+    {
+      "name": "TXT Group",
+      "position": "Full Stack Engineer",
+      "location": "Milan, Italy",
+      "startDate": "2019-10",
+      "endDate": "2021-04",
+      "highlights": [
+        "Acted as a point of reference/mentor for developers learning: Node.js, React.js, Redux.js & TypeScript.",
+        "Led development of a React/TypeScript control panel for operating Flight Simulators via tablet (Leonardo SpA).",
+        "Maintained two C# Xamarin mobile apps for automotive diagnostic data collection over WiFi and Bluetooth (ITT Inc).",
+        "Developed a C# app to collect and process flight data in collaboration with IATA Turbulence Aware campaign to reduce fuel costs.",
+        "Developed a C# WPF simulator for training the proper use of the ADRIAN system."
+      ],
+      "url": "http://txtgroup.com"
     }
   ],
   "skills": [
@@ -141,8 +156,7 @@
         "OpenAI",
         "RAG",
         "MCP-Servers",
-        "AI Cleanup",
-        "Ai Agents"
+        "AI Agents"
       ]
     }
   ]

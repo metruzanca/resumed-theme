@@ -214,7 +214,7 @@ exports.render = ({ basics, work, education, skills }) => {
   <body class="bg-gray-900">
     <div class="flex justify-center">
       <div class="resume-container resume-page bg-white max-w-[8.5in]" style="height: 11in;">
-        <main class="text-sm px-10 py-12 text-black" style="font-family: '${fontFamily}', serif;">
+        <main class="text-sm px-10 py-6 text-black" style="font-family: '${fontFamily}', serif;">
           ${renderHeader(basics)}
           ${renderExperience(work)}
           ${renderEducation(education)}
